@@ -1,0 +1,56 @@
+[
+  {
+    "label": "홈",
+    "path": "/"
+  },
+  {
+    "label": "서비스",
+    "path": "/services",
+    "submenu": [
+      {
+        "sublabel": "웹 개발",
+        "subpath": "/services/web-development"
+      },
+      {
+        "sublabel": "모바일 앱",
+        "subpath": "/services/mobile-app",
+        "thirdmenu": [
+          {
+            "tlabel": "iOS 앱",
+            "tpath": "/services/mobile-app/ios"
+          },
+          {
+            "tlabel": "Android 앱",
+            "tpath": "/services/mobile-app/android"
+          }
+        ]
+      },
+      {
+        "sublabel": "UI/UX 디자인",
+        "subpath": "/services/ui-ux-design"
+      }
+    ]
+  },
+  {
+    "label": "포트폴리오",
+    "path": "/portfolio",
+    "submenu": [
+      {
+        "sublabel": "웹사이트",
+        "subpath": "/portfolio/websites"
+      },
+      {
+        "sublabel": "모바일 앱",
+        "subpath": "/portfolio/mobile-apps"
+      }
+    ]
+  },
+  {
+    "label": "회사소개",
+    "path": "/about"
+  },
+  {
+    "label": "연락처",
+    "path": "/contact"
+  }
+]
